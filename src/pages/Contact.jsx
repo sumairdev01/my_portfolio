@@ -24,7 +24,7 @@ const Contact = () => {
     setStatus("loading");
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/api/contact/", formData);
+      const response = await axios.post("https://infobackend.vercel.app/api/contact/", formData);
       console.log("Message sent:", response.data);
       setStatus("success");
       setFormData({ name: "", email: "", message: "" });
