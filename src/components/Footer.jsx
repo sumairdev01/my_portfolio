@@ -29,14 +29,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
             <div className="flex gap-4">
-              <a href="#" className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+              <a href="https://github.com/sumairdev01" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
                 <Github size={20} />
               </a>
-              <a href="#" className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+              <a href="https://www.linkedin.com/in/sumair-ali-1012b9354" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
-                <Twitter size={20} />
               </a>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sumairali30307@gmail.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
                 <Mail size={20} />

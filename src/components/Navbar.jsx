@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? "glass shadow-lg py-3" : "bg-transparent py-5"}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* Logo (removed text) */}
-        <NavLink to="/" className="text-2xl font-bold tracking-tight"></NavLink>
+        <NavLink to="/" className="text-2xl font-bold tracking-tight text-white">Sumair Portfolio</NavLink>
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-8 items-center">
@@ -37,6 +37,7 @@ const Navbar = () => {
           ))}
           <a
             href="/resume.pdf"
+            download
             className="px-5 py-2 text-sm font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/20"
           >
             Resume
